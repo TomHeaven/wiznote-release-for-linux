@@ -27,7 +27,7 @@ sudo ./qt-opensource-linux-x64-5.7.0.run
 ```
 # config
 INSTALL_DIR=/opt/wiznote
-DESKTOP_DIR=~/桌面/
+DESKTOP_DIR=~/桌面
 ```
 + 给予``install.sh``执行权限。终端切换到项目目录，执行
 ```
@@ -41,7 +41,7 @@ chmod a+x install.sh
 
 ## 关于中文输入法支持
 
-+ 安装完成后，需要注销或者重启系统为知笔记才能使用fctix中文输入法。
++ 安装完成后，需要注销或者重启系统为知笔记才能使用fcitx中文输入法。
 + 如果不想重启系统，不要从桌面快捷方式启动为知笔记，而在终端中运行``wiznote``启动。否则中文输入法不可用。
 
 ## 调试
