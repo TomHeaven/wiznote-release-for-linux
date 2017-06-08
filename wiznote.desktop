@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Wiznote
+Name[zh_CN]=为知笔记
+Exec=/opt/wiznote/bin/WizNote
+Icon=/opt/wiznote/bin/wiznote.png
