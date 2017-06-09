@@ -12,13 +12,20 @@ DESKTOP_DIR=~/桌面
 # copy files
 sudo mkdir -p $INSTALL_DIR/bin/
 sudo cp WizNote $INSTALL_DIR/bin/
+<<<<<<< HEAD
 sudo cp wiznote $INSTALL_DIR/bin/
+=======
+>>>>>>> c53b24119e0e3becb2a76292497eefe2f54e4da7
 sudo cp wiznote.png $INSTALL_DIR/bin/
 sudo cp share.tar.gz $INSTALL_DIR/
 sudo tar -zxvf $INSTALL_DIR/share.tar.gz -C $INSTALL_DIR
 sudo rm -f $INSTALL_DIR/share.tar.gz
+<<<<<<< HEAD
 sudo cp -f wiznote.desktop /usr/share/applications/
 cp -f wiznote.desktop $DESKTOP_DIR/wiznote.desktop
+=======
+cp wiznote.desktop $DESKTOP_DIR
+>>>>>>> c53b24119e0e3becb2a76292497eefe2f54e4da7
 
 # fix privilleges
 sudo chmod a+x  $DESKTOP_DIR/wiznote.desktop
@@ -29,10 +36,17 @@ sudo cp libfcitxplatforminputcontextplugin.so /opt/Qt5.7.0/Tools/QtCreator/lib/Q
 sudo cp libfcitxplatforminputcontextplugin.so /opt/Qt5.7.0/5.7/gcc_64/plugins/platforminputcontexts/
 
 # fix qt5 library path
+<<<<<<< HEAD
 echo "export LD_LIBRARY_PATH=/opt/Qt5.7.0/5.7/gcc_64/lib:\$LD_LIBRARY_PATH" | sudo tee -a /etc/profile
 
 # create links for terminal
 sudo ln -s -f  $INSTALL_DIR/bin/wiznote /usr/bin/wiznote
+=======
+echo "export LD_LIBRARY_PATH=:/opt/Qt5.7.0/5.7/gcc_64/lib:\$LD_LIBRARY_PATH" | sudo tee -a /etc/profile
+
+# create links for terminal
+sudo ln -s -f  $INSTALL_DIR/bin/WizNote /usr/bin/wiznote
+>>>>>>> c53b24119e0e3becb2a76292497eefe2f54e4da7
 
 
 echo "Installation Finished."
