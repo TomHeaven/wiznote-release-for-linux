@@ -1,4 +1,4 @@
 #/bin/sh
 export LD_LIBRARY_PATH=/opt/Qt5.7.0/5.7/gcc_64/lib:$LD_LIBRARY_PATH
-/opt/wiznote/bin/WizNote
+/opt/wiznote/bin/WizNote.bin
 #gtk-launch /usr/share/applications/wiznote.desktop

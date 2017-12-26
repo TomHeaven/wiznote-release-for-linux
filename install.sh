@@ -11,6 +11,8 @@ DESKTOP_DIR=~/桌面
 
 # copy files
 sudo mkdir -p $INSTALL_DIR/bin/
+
+sudo cp WizNote.bin $INSTALL_DIR/bin/
 sudo cp wiznote $INSTALL_DIR/bin/
 sudo cp wiznote.png $INSTALL_DIR/bin/
 sudo cp share.tar.gz $INSTALL_DIR/
