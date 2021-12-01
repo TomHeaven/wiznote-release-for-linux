@@ -6,7 +6,8 @@ INSTALL_DIR=/opt/wiznote
 DESKTOP_DIR=`xdg-user-dir DESKTOP`
 BIN_FILE=wiznote-desktop-linux-x86_64.AppImage
 # download wiznote
-wget -o $BIN_FILE $URL
+echo "Downloading wiznote, please wait..."
+wget -O $BIN_FILE $URL
 
 # copy files
 sudo mkdir -p $INSTALL_DIR/bin/
