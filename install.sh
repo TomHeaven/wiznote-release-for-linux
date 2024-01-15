@@ -1,5 +1,6 @@
 #/bin/sh
-
+# prerequests
+sudo apt install -y fuse
 # config
 URL=https://url.wiz.cn/u/linux_new
 INSTALL_DIR=/opt/wiznote
